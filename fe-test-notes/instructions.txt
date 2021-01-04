@@ -1,0 +1,25 @@
+We want to create some part of our Client Application, the application is web-based, mobile-first and fully responsive.
+
+That includes 2 screens,
+the first screen has a dynamic list of grades that can be fetched remotely, the user can choose one or multiple days and a time range,
+clicking on "Create Bookings" will take the user to the second screen.
+
+The second screen shows a list of bookings to be created based on the date and times selected in the previous screen and staff available for each booking.
+
+Instructions:
+
+The list of grades must be fetched remotely: https://static.healthforcego.com/grades.json
+Clicking on "Create bookings" on the first screen should retrieve a list of available staff, for that exercise you will generate them randomly.
+Clicking on "Confirm bookings" on the second screen should post the data to a server, for that exercise you will console.log the data.
+
+
+Deliverables:
+
+- Use of React Components.
+- Use of state management.
+- Some Unit Tests if possible.
+- Feel free to use any framework or library you want, and enhance it as much as possible.
+
+- Send your project in a zip file with all the instructions to install, run....
+
+Good Luck
